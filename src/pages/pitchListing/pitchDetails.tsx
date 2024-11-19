@@ -1,9 +1,7 @@
 import { pitchPic } from '../../assets/images';
-// import { useParams } from 'react-router-dom';
 import { Ellipse, Home7 } from '../../assets/images';
 
 const PitchDetails: React.FC = () => {
-    // const { pitchId } = useParams<{ pitchId: string }>(); // Get the pitch ID from the URL
 
     // Mock data for demonstration purposes. Replace with actual API data in a real app.
     const pitchData = {

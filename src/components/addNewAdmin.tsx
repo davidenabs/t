@@ -1,4 +1,3 @@
-import { useParams } from 'react-router-dom';
 import { bookingImg } from '../assets/images'; 
 
 const adminDetails = {
@@ -11,7 +10,6 @@ const adminDetails = {
 };
 
 const AddNewAdmin: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
 
   return (
     <div className="bg-white relative ml-72 p-8 mt-24">
