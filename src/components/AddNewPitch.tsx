@@ -1,4 +1,4 @@
-import { pitchPic2 } from "../assets/images";
+// import { pitchPic2 } from "../assets/images";
 import FileUploadComponent from "./FileUploadComponent";
 import Select from "./forms/select";
 

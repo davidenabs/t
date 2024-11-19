@@ -121,7 +121,7 @@ const FileUploadComponent: React.FC<FileUploadComponentProps> = ({ onFileUpload,
                             >
                                 <div className='w-[21px] h-[21px]'>
                                     <button
-                                        className='flex w-full h-[41.67%] bg-[#dd514d] rounded-[0.75px] border-none flex items-center justify-center'
+                                        className=' w-full h-[41.67%] bg-[#dd514d] rounded-[0.75px] border-none flex items-center justify-center'
                                         onClick={handleUpload}
                                     >
                                         <span className="text-[6px] font-semibold text-[#fff]">

@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 import { bookingImg } from '../assets/images';
 
 const UserDetails = {
@@ -15,7 +15,7 @@ const UserDetails = {
 };
 
 const userDetails: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
+  // const { id } = useParams<{ id: string }>();
 
   return (
     <div className="bg-white relative ml-72 p-8 mt-24">
